@@ -1,5 +1,8 @@
 import math
 
+def menu():
+    print('*******welcome to python calculator*******\n1.sum\n2.sub\n3.mul\n4.div\n###5.equation###\n6.sin\n7.cos\n8.tan\n9.cot\n10.log')
+
 def calc_main(operator, a):
     if operator == 'sum' or operator == '+':
         b = int (input('enter the second nmber: '))
@@ -101,9 +104,7 @@ def log(a):
 result_operator = 'no'    
 continue_flag = 'yes'
 while continue_flag == 'yes' :    
-    print('*******welcome to python calculator*******\n1.sum\n2.sub\n3.mul\n4.div\n###5.equation###\n6.sin\n7.cos\n8.tan\n9.cot\n10.log')
-
-    
+    menu()
     if result_operator == 'yes' :
         print('the first number: ', a)
         operator= input('enter your command: ')    
