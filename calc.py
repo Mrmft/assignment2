@@ -18,8 +18,8 @@ def calc_main(operator, a):
         result = divide(a, b)
         return result
     #elif operator == 'equation' :
-        result = equation()
-        return result
+        #result = equation()
+        #return result
     elif operator == 'sin' :
         result = sin(a)
         return result
@@ -86,10 +86,10 @@ def cot(a):
     return result     
 
 #def equation():
-    equ= input('enter your equation: ')
-    result= eval(equ)
-    print(result)
-    return float(result)
+    #equ= input('enter your equation: ')
+    #result= eval(equ)
+    #print(result)
+    #return float(result)
 
 def log(a):
     b = input('enter the base number: ')
